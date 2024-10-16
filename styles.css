@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: black;
+}
+
+p{ 
+    color:  black;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    
+}
+
+nav ul{
+     display: inline-block;
+    list-style: none;
+    
+}
+
+nav ul li{ 
+    display: inline-block;
+    margin: 50px;
+    border-bottom: solid beige;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{color: red;}
+
+.container0{
+    margin: auto;
+    padding-left: 25px;
+    padding-right:  25px;
+}
+
+.place1{
+    background-color: beige;
+    height: 800px;
+    background-image: url(Supermarket.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+   background-size: 100vw;
+   background-attachment: fixed;
+}
+
+.place0{
+    color: black;
+    padding: 50px;
+    font-size: 35px;
+    background-color: beige;
+    position: relative;
+    height: 387px;
+}
+.slideshow1{ 
+   position: absolute;
+   right: 0px;
+   top: 0px;
+   bottom: 0px;
+   width: 65%;
+   background-color: black;
+   height: 387px;
+   display:inline-flex;
+   overflow-y: hidden;
+}
+.slideshow1p{
+    position: absolute;
+    right: 220px;
+    top: 0px;
+    bottom:0px
+ }
